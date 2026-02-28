@@ -9,7 +9,11 @@ def fetch_orcid_publications(orcid_id):
     """Fetch publications from ORCID public API"""
     url = f"https://pub.orcid.org/v3.0/{orcid_id}/works"
     headers = {"Accept": "application/json"}
+    print(f"Calling URL: {url}")
     response = requests.get(url, headers=headers)
+    print(f"Response status: {response.status_code}")
+    if response.status_code != 200:
+        print(f"Response body: {response.text[:500]}")
     response.raise_for_status()
     return response.json()
 
@@ -18,6 +22,8 @@ def fetch_work_details(orcid_id, put_code):
     url = f"https://pub.orcid.org/v3.0/{orcid_id}/work/{put_code}"
     headers = {"Accept": "application/json"}
     response = requests.get(url, headers=headers)
+    if response.status_code != 200:
+        print(f"Work fetch failed ({response.status_code}): {response.text[:200]}")
     response.raise_for_status()
     return response.json()
 
