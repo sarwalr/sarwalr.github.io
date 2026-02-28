@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Spanning the health spectrum from the Clinic to Policy and implementation ground "
+title: "Spanning the health spectrum from the Clinic to Policy "
 author_profile: true
 redirect_from: 
   - /about/
