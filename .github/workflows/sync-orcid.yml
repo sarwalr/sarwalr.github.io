@@ -39,25 +39,7 @@ jobs:
           git push
 
       - name: Trigger GitHub Pages rebuild
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          curl -X POST \
-          -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-          -H "Accept: application/vnd.github.v3+json" \
-          https://api.github.com/repos/sarwalr/sarwalr.github.io/pages/builds
-```
-
-**Step 4:** Click **"Commit changes"**
-
-**Step 5:** Go to Actions tab → Run workflow manually
-
----
-
-### 🧠 What Changed
-Added a final step that **explicitly triggers a GitHub Pages rebuild** after committing the publication files — using GitHub's built-in `GITHUB_TOKEN` which requires no setup!
-
----
-
-After running, check Actions tab — you should now see **both**:
-```
-✅ Sync ORCID Publications
-✅ pages build and deployment
+          curl -X POST -H "Authorization: token $GITHUB_TOKEN" -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/sarwalr/sarwalr.github.io/pages/builds
