@@ -34,9 +34,9 @@ Promoter & Consultant, Wellness Program Design, Sutra Health Clinic / EQUAL Soci
 Skills
 ======
 CORE COMPETENCIES
-    • Yoga, diet and lifestyle based Wellness Interventions
-    • Community & Integrative Health Programming
-    • Strategic Health Policy & Leadership
-    • Program Planning, Implementation & Evaluation
-    • Global Health & Development Administration
-    • Academic Teaching & Capacity Building
+- Yoga, diet and lifestyle based Wellness Interventions
+- Community & Integrative Health Programming
+- Strategic Health Policy & Leadership
+- Program Planning, Implementation & Evaluation
+- Global Health & Development Administration
+- Academic Teaching & Capacity Building
