@@ -11,6 +11,6 @@ location: "Faridabad"
 See the lecutre at:
 <https://www.researchgate.net/publication/401424640_Integrated_Health_Clinic_at_ESIC_Faridabad_Presentation_before_Faculty_MD_students>
 or
-<ttps://doi.org/10.5281/zenodo.18829172>
+<https://doi.org/10.5281/zenodo.18829172>
 
-DOI at <DOI 10.5281/zenodo.18829171>
+DOI at <10.5281/zenodo.18829171>
