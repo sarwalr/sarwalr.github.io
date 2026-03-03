@@ -15,7 +15,7 @@ Motivating and guiding lifestyle changes one person at a time, starting with the
 are in exploring the effectivness of lifestyle therapies across a spectrum of chronic conditions
 
 
-**Latest publication:**
+**Latest publications:**
 
 Recent Original Articles
 
