@@ -17,6 +17,8 @@ are in exploring the effectivness of lifestyle therapies across a spectrum of ch
 
 **Latest publication:**
 
-Original Article
+Recent Original Articles
 
 [A traffic light approach to lifestyle change: Health building guideline for NCD outpatients in India](https://journals.lww.com/jfmpc/fulltext/2026/01000/a_traffic_light_approach_to_lifestyle_change_.9.aspx)
+
+[Remission of Irritable Bowel Syndrome Achieved Through Combined Diet, Lifestyle Modification, and Yoga: A Case Report](https://www.preprints.org/manuscript/202603.0183)
