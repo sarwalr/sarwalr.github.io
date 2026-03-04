@@ -137,7 +137,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : Raeksh_Sarwal
 facebook:
   username               :
   app_id                 :
@@ -148,6 +148,25 @@ social:
   type                   :
   name                   :
   links:
+
+description: "Public Health Physician and Policy Leader specializing in 
+              health systems, integrative health and NCD prevention. 
+              Three decades of experience in Indian government health policy."
+
+google_site_verification : "abc123xyz456"  # from Google Search Console
+bing_site_verification   : "your-code-here"
+
+og_image                 : "/images/profile.png"  # shows when shared on social media
+og_description           : "Dr. Rakesh Sarwal - Public Health Physician and Policy Leader"
+
+social:
+  type                   : "Person"
+  name                   : "Dr. Rakesh Sarwal"
+  links:
+    - "https://scholar.google.com/citations?user=siSnZvMAAAAJ&hl=en"
+    - "https://orcid.org/0000-0001-8345-2640"
+    - "https://github.com/dr-rakesh-sarwal"
+    - "https://linkedin.com/in/dr-rakesh-sarwal"
 
 
 # Analytics
