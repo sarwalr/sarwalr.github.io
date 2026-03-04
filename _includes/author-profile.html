@@ -13,6 +13,14 @@
     	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}"  fetchpriority="high" />
     {% endif %}
   </div>
+  {% if author.expertise %}
+  <h4>Expertise</h4>
+  <ul>
+    {% for item in author.expertise %}
+      <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
+{% endif %}
 
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
