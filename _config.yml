@@ -17,18 +17,19 @@ repository               : "dr-rakesh-sarwal/dr-rakesh-sarwal.github.io"
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
+
 author:
-  avatar: "profile.png"
   name: "Dr. Rakesh Sarwal"
+  avatar: "profile.png" 
+  position: "Professor of Community Medicine"
   employer: "ESIC Medical College & Hospital, Faridabad"
-  email: "sarwalr@gmail.com"
-  bio: "Professor of Community Medicine and Head of Integrative Health Clinic. E."
+  bio: "Head of Integrative Health Clinic. Expertise in health systems, integrative health, and public policy implementation."
   expertise:
     - "Health systems"
     - "Integrative health"
     - "Public policy implementation"
-  
   email: "sarwalr@gmail.com"
+  
 
   # Academic websites
   academia         : # URL
