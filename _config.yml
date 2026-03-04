@@ -20,8 +20,7 @@ repository               : "dr-rakesh-sarwal/dr-rakesh-sarwal.github.io"
 author:
   # Biographic information
   name: "Dr. Rakesh Sarwal"
-  position: "Professor of Community Medicine"
-  bio: "Head of Integrative Health Clinic at ESIC Medical College & Hospital. Expertise in health systems, integrative health, and public policy implementation."
+  bio: "Professor of Community Medicine and Head of Integrative Health Clinic. Expertise in health systems, integrative health, and public policy implementation."
   email: "sarwalr@gmail.com"
   
   avatar           : "profile.png"
