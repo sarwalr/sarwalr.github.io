@@ -130,7 +130,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "images/profile.png"
+og_image                 : "https://dr-rakesh-sarwal.github.io/images/profile.png"
 og_description           : "Dr. Rakesh Sarwal - Public Health Physician and Policy Leader"
 social:
   type                   : "Person"
