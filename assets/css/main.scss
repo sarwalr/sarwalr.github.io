@@ -41,3 +41,23 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+.author__urls {
+  a[href*="google"] .svg-inline--fa,
+  a[href*="scholar"] .svg-inline--fa { color: #4285F4; }  /* Google blue */
+  
+  a[href*="linkedin"] .svg-inline--fa { color: #0077B5; }
+  
+  a[href*="twitter"] .svg-inline--fa,
+  a[href*="x.com"] .svg-inline--fa { color: #1DA1F2; }
+  
+  a[href*="github"] .svg-inline--fa { color: #333333; }
+  
+  a[href*="researchgate"] .svg-inline--fa { color: #00CCBB; }
+  
+  a[href*="orcid"] .svg-inline--fa { color: #A6CE39; }
+  
+  a[href*="pubmed"] .svg-inline--fa,
+  a[href*="ncbi"] .svg-inline--fa { color: #326599; }
+  
+  a[href*="researchgate"] .svg-inline--fa { color: #00CCBB; }
+}
