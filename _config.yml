@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Dr. Rakesh Sarwal"
 title_separator          : "-"
 name                     : &name "Dr. Rakesh Sarwal"
-description              : &description "Professor, Communnity Medicine and Head,Integrative Health Clinic, ESIC, Faridabad"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Professor, Community Medicine and Head, Integrative Health Clinic, ESIC, Faridabad"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://dr-rakesh-sarwal.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Dr.Rakesh Sarwal"
   pronouns         : # example: "she/her"  
-  bio              : "Public Health Physician, Policy leader"
+  bio              : "Expertise in health systems, integrative health, and public policy implementation."
   location         : "Faridabad, India"
   employer         : "ESIC Medical College & Hospital, Faridabad"
   uri              : # URL
@@ -52,7 +52,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "dr-rakesh-sarwar"
+  github           : "dr-rakesh-sarwal"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -67,7 +67,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "https://www.linkedin.com/in/dr-rakesh-sarwal"
+  linkedin         : dr-rakesh-sarwal # "https://www.linkedin.com/in/dr-rakesh-sarwal"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -87,8 +87,6 @@ author:
 publication_category:
   Journal-Articles:
     title: 'Articles'
-  manuscripts:
-    title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
 
@@ -156,7 +154,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               :  false # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
     tracking_id          :
 
@@ -282,7 +280,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comment: true
+      comments: true
   # _talks
   - scope:
       path: ""
@@ -303,7 +301,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Etc/UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Kolkata # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
