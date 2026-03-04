@@ -147,9 +147,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false
+  provider               : "google-gtag"
   google:
-    tracking_id          :
+    tracking_id          : G-4HZK86LDQ9 
 
 
 # Reading Files
