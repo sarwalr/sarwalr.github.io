@@ -1,7 +1,6 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default"
 title                    : "Dr. Rakesh Sarwal"
 name                     : "Dr. Rakesh Sarwal"
 description              : "Public health physician and policy leader with over three decades of experience in India. Research interests in lifestyle therapies for chronic disease prevention and NCD management."
@@ -145,7 +144,7 @@ social:
 
 # Analytics
 analytics:
-  provider               : "false"
+  provider               : false
   google:
     tracking_id          :
 
