@@ -71,6 +71,12 @@
       {% if author.SciProfiles %}
   <li><a href="{{ author.SciProfiles }}" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-flask icon-pad-right" aria-hidden="true"></i>SciProfiles</a></li>
 {% endif %}
+
+      {% if author.loop %}
+  <li><a href="{{ author.loop }}" rel="nofollow noopener noreferrer">
+    <i class="fas fa-fw fa-circle-nodes icon-pad-right" aria-hidden="true"></i>Loop
+  </a></li>
+{% endif %}
       
       {% if author.impactstory %}
         <li><a href="{{ author.impactstory }}" rel="nofollow noopener noreferrer"><i class="ai fa-fw ai-impactstory icon-pad-right" aria-hidden="true"></i>ImpactStory</a></li>
